@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Microsoft Yahei';
+	background: #8BA1DA;
+}
+
+.header{
+	position: relative;
+	height: 120px;
+	background: #637AB0;
+}
+
+.header .title{
+	padding-left: 60px;
+	padding-top: 30px;
+	font-size: 60px;
+	font-family: 'Times New Roma';
+	color: #E8C87C;
+	font-weight: bold;
+}
+
+.header a{
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+	text-decoration: none;
+	color: #E8C87C;
+	font-size: 30px;
+}
+
+.header a:hover{
+	color: #fff;
+}
+
+.container{
+	width: 100%;
+}
+
+.container ul{
+	background: #2C4B7A;
+	height: 50px;
+	line-height: 50px;
+	list-style: none;
+	font-size: 25px;
+	color: #7793C3;
+}
+
+ul li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+
+li.active{
+	background: #475E80;
+}
+
+li:hover{
+	cursor: pointer;
+	background: #475E80;
+}

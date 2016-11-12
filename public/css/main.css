@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Microsoft Yahei';
+	background: #8BA1DA;
+}
+
+.container{
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	height: 100vh;
+	background: url(../img/main-z.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.container p{
+	position: absolute;
+}
+
+.container a{
+	position: absolute;
+	text-decoration: none;
+}
+
+.name{
+	left: 4%;
+	top: 3%;
+	font-size: 60px;
+	color: #fff;
+}
+
+.professional{
+	left: 4%;
+	top: 16%;
+	font-size: 60px;
+	color: #B7C8E4;
+}
+
+.resume{
+	left: 4%;
+	top: 30%;
+	width: 280px;
+	height: 60px;
+	line-height: 60px;
+	background: #E7C683;
+	color: #B5913B;
+	padding-left: 30px;
+	font-size: 30px;
+}
+
+.experience{
+	left: 4%;
+	top: 44%;
+	width: 240px;
+	height: 60px;
+	line-height: 60px;
+	background: #E7C683;
+	color: #B5913B;
+	padding-left: 30px;
+	font-size: 30px; 
+}
+
+.work{
+	left: 4%;
+	top: 58%;
+	width: 160px;
+	height: 60px;
+	line-height: 60px;
+	background: #E7C683;
+	color: #B5913B;
+	padding-left: 30px;
+	font-size: 30px; 
+}
+
+.linkedin{
+	left: 4%;
+	top: 72%;
+	background: #637AB0;
+	color: #8CA2DB;
+	padding-left: 30px;
+	font-size: 30px; 
+	padding: 0 5px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+
+.blog{
+	right: 4%;
+	top: 30%;
+	width: 130px;
+	height: 60px;
+	line-height: 60px;
+	background: #E7C683;
+	color: #B5913B;
+	font-size: 30px;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.recording{
+	right: 4%;
+	top: 44%;
+	width: 220px;
+	height: 60px;
+	line-height: 60px;
+	background: #E7C683;
+	color: #B5913B;
+	font-size: 30px; 
+	text-align: right;
+	padding-right: 30px;
+}
+
+
+.construction{
+	right: 4%;
+	top: 58%;
+	width: 280px;
+	height: 60px;
+	line-height: 60px;
+	background: #E7C683;
+	color: #B5913B;
+	font-size: 30px; 
+	text-align: right;
+	padding-right: 30px;
+}
+
+.spare-time{
+	right: 4%;
+	top: 71%;
+	font-size: 60px;
+	color: #B7C8E4;
+}
