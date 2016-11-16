@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: 'Microsoft Yahei';
+	font-family: "Verdana", "Geneva", sans-serif;
 	background: #8BA1DA;
 }
 
@@ -18,9 +18,8 @@ body{
 	padding-left: 60px;
 	padding-top: 30px;
 	font-size: 60px;
-	font-family: 'Times New Roma';
+    font-family: "georgia", serif;
 	color: #E8C87C;
-	font-weight: bold;
 }
 
 .header a{
@@ -40,7 +39,7 @@ body{
 	width: 100%;
 }
 
-.container ul{
+.container .nav{
 	background: #2C4B7A;
 	height: 50px;
 	line-height: 50px;
@@ -49,17 +48,67 @@ body{
 	color: #7793C3;
 }
 
-ul li{
+.nav li{
 	float: left;
 	width: 33.3%;
 	text-align: center;
 }
 
-li.active{
+.nav li.active{
 	background: #475E80;
 }
 
-li:hover{
+.nav li:hover{
 	cursor: pointer;
 	background: #475E80;
+}
+
+.content{
+	display: none;
+	width: 88%;
+	margin: 0 auto;
+}
+
+.tab1{
+	display: block;
+}
+
+.content h2{
+	color: #fff;
+	font-size: 45px;
+}
+.content li{
+	list-style-type:square;
+	font-size: 40px;
+	color: #2C4B7A;
+    margin-left: 50px;
+}
+
+.content h3{
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+    font-style: italic;
+}
+
+.content li p{
+	color: #fff;
+	font-size: 25px;
+	display: none;
+}
+
+.content li p:not(:last-child){
+	margin-bottom: 20px;
+}
+
+.footer{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.footer p{
+	margin-right: 30px;
+	text-align: right;
+	color: #697EB3;
+	font-size: 25px;
 }

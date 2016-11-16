@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: 'Microsoft Yahei';
+	font-family: "Verdana", "Geneva", sans-serif;
 	background: #8BA1DA;
 }
 
@@ -38,6 +38,7 @@ body{
 	top: 16%;
 	font-size: 60px;
 	color: #B7C8E4;
+    font-style: italic;
 }
 
 .resume{
@@ -52,6 +53,11 @@ body{
 	font-size: 30px;
 }
 
+.resume:hover{
+    background: #B5913B;
+	color: #E7C683;
+}
+
 .experience{
 	left: 4%;
 	top: 44%;
@@ -64,6 +70,11 @@ body{
 	font-size: 30px; 
 }
 
+.experience:hover{
+    background: #B5913B;
+	color: #E7C683;
+}
+
 .work{
 	left: 4%;
 	top: 58%;
@@ -74,6 +85,11 @@ body{
 	color: #B5913B;
 	padding-left: 30px;
 	font-size: 30px; 
+}
+
+.work:hover{
+    background: #B5913B;
+	color: #E7C683;
 }
 
 .linkedin{
@@ -89,7 +105,7 @@ body{
 }
 
 
-.blog{
+.swork{
 	right: 4%;
 	top: 30%;
 	width: 130px;
@@ -100,6 +116,11 @@ body{
 	font-size: 30px;
 	text-align: right;
 	padding-right: 30px;
+}
+
+.sworks:hover{
+    background: #B5913B;
+	color: #E7C683;
 }
 
 .recording{
@@ -115,6 +136,10 @@ body{
 	padding-right: 30px;
 }
 
+.recording:hover{
+    background: #B5913B;
+	color: #E7C683;
+}
 
 .construction{
 	right: 4%;
@@ -129,9 +154,15 @@ body{
 	padding-right: 30px;
 }
 
+.construction:hover{
+    background: #B5913B;
+	color: #E7C683;
+}
+
 .spare-time{
 	right: 4%;
-	top: 71%;
+	bottom: 18%;
 	font-size: 60px;
 	color: #B7C8E4;
+    font-style: italic;
 }
