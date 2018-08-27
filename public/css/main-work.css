@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: "Verdana", "Geneva", sans-serif;
+	font-family: "Noto Sans", sans-serif;
 	background: #8BA1DA;
 }
 
@@ -17,7 +17,7 @@ body{
 .header .title{
 	padding-left: 60px;
 	padding-top: 30px;
-	font-size: 60px;
+	font-size: 50px;
     font-family: "georgia", serif;
 	color: #E8C87C;
 }
@@ -28,7 +28,7 @@ body{
 	right: 50px;
 	text-decoration: none;
 	color: #E8C87C;
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .header a:hover{
@@ -44,7 +44,7 @@ body{
 	height: 50px;
 	line-height: 50px;
 	list-style: none;
-	font-size: 25px;
+	font-size: 24px;
 	color: #7793C3;
 }
 
@@ -65,8 +65,9 @@ body{
 
 .content{
 	display: none;
-	width: 88%;
+	width: 80%;
 	margin: 0 auto;
+    margin-top: 10px;
 }
 
 .tab1{
@@ -75,30 +76,45 @@ body{
 
 .content h2{
 	color: #fff;
-	font-size: 45px;
+	font-size: 24px;
+    margin-bottom: 4px;
 }
 .content li{
 	list-style-type:square;
-	font-size: 40px;
+	font-size: 16px;
 	color: #2C4B7A;
     margin-left: 50px;
+    margin-bottom: 6px;
 }
 
 .content h3{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: normal;
     color: #fff;
     font-style: italic;
+    margin-bottom: 4px;
 }
 
 .content li p{
 	color: #fff;
-	font-size: 25px;
+	font-size: 16px;
 	display: none;
 }
 
 .content li p:not(:last-child){
-	margin-bottom: 20px;
+	margin-bottom: 7px;
+}
+
+.content a{
+    color:#E8C87C;
+}
+
+.content a:hover{
+    color:#FFF;
+}
+
+.gametitle{
+    font-style: italic;
 }
 
 .footer{
@@ -111,4 +127,12 @@ body{
 	text-align: right;
 	color: #697EB3;
 	font-size: 25px;
+}
+
+.pdf{
+    color:#E8C87C;
+}
+
+.pdf:hover{
+    color:#FFF;
 }

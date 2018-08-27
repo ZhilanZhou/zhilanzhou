@@ -3,9 +3,9 @@ $(function(){
 		e.preventDefault();
 		$('#z').animate(
 		{
-			width: '200%',
-			height: '200%',
-			opacity: '.1'
+			width: '1000px',
+			height: '160vh',
+			opacity: '.01'
 		},
 		'normal', 
 		function() {

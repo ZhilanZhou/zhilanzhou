@@ -1,3 +1,1 @@
-$(function(){
-	
-});
+$(function(){ $('.container li').click(function(){$(' .subtitle').click(function(){  if($(this).hasClass('active')){   $(this).removeClass('active');   $(this).nextAll('p').hide();  }else{   $(this).addClass('active');   $(this).nextAll('p').show();  }   });});

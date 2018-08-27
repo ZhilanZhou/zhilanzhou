@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: "Verdana", "Geneva", sans-serif;
+	font-family: "Noto Sans", sans-serif;
 	background: #8BA1DA;
 }
 
@@ -61,4 +61,16 @@ li.active{
 li:hover{
 	cursor: pointer;
 	background: #475E80;
+}
+
+.footer{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.footer p{
+	margin-right: 30px;
+	text-align: right;
+	color: #697EB3;
+	font-size: 25px;
 }

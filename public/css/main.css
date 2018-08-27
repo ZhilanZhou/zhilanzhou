@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: "Verdana", "Geneva", sans-serif;
+	font-family: "Noto Sans", sans-serif;
 	background: #8BA1DA;
 }
 
@@ -34,7 +34,7 @@ body{
 }
 
 .professional{
-	left: 4%;
+	left: 3.5%;
 	top: 16%;
 	font-size: 60px;
 	color: #B7C8E4;
@@ -44,7 +44,7 @@ body{
 .resume{
 	left: 4%;
 	top: 30%;
-	width: 280px;
+	width: 300px;
 	height: 60px;
 	line-height: 60px;
 	background: #E7C683;
@@ -61,7 +61,7 @@ body{
 .experience{
 	left: 4%;
 	top: 44%;
-	width: 240px;
+	width: 220px;
 	height: 60px;
 	line-height: 60px;
 	background: #E7C683;
@@ -78,7 +78,7 @@ body{
 .work{
 	left: 4%;
 	top: 58%;
-	width: 160px;
+	width: 125px;
 	height: 60px;
 	line-height: 60px;
 	background: #E7C683;
@@ -108,7 +108,7 @@ body{
 .swork{
 	right: 4%;
 	top: 30%;
-	width: 130px;
+	width: 120px;
 	height: 60px;
 	line-height: 60px;
 	background: #E7C683;
@@ -126,7 +126,7 @@ body{
 .recording{
 	right: 4%;
 	top: 44%;
-	width: 220px;
+	width: 210px;
 	height: 60px;
 	line-height: 60px;
 	background: #E7C683;
@@ -160,7 +160,7 @@ body{
 }
 
 .spare-time{
-	right: 4%;
+	right: 4.6%;
 	bottom: 18%;
 	font-size: 60px;
 	color: #B7C8E4;
