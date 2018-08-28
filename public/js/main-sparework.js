@@ -1,3 +1,1 @@
-$(function(){
-	
-});
+$(function(){ $('.nav li').click(function(){  $('.nav li').removeClass('active');  $(this).addClass('active');  var tabName = $(this).attr('id');  $('.content').hide();  $('.'+tabName).show(); }); $('.content h3').click(function(){  if($(this).hasClass('active')){   $(this).removeClass('active');   $(this).nextAll('p').hide();  }else{   $(this).addClass('active');   $(this).nextAll('p').show();  }   });});
