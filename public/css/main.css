@@ -9,10 +9,10 @@ body{
 }
 
 .container{
-	position: relative;
-	width: 1000px;
+	position: absolute;
+	width: 1090px;
 	margin: 0 auto;
-	height: 100vh;
+	height: 800px;
 	background: url(../img/main-z.png) no-repeat;
 	background-size: 100% 100%;
 }
