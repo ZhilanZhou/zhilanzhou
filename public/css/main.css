@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Noto Sans SC", sans-serif;
 	background: #8BA1DA;
 }
 
@@ -28,10 +28,17 @@ body{
 }
 
 .name{
+    font-family: "Noto Serif", serif;
 	left: 4%;
 	top: 3%;
-	font-size: 60px;
+	font-size: 65px;
 	color: #fff;
+    font-weight: 700;
+}
+
+.about{
+    padding-left: 48%;
+    top: 6%;
 }
 
 .professional{
@@ -98,8 +105,8 @@ body{
 	top: 72%;
 	background: #637AB0;
 	color: #8CA2DB;
-	padding-left: 30px;
-	font-size: 30px; 
+	padding-left: 20px;
+	font-size: 25px; 
 	padding: 0 5px;
 	border-radius: 5px;
 	font-weight: bold;
@@ -107,6 +114,7 @@ body{
 
 
 .swork{
+    font-family: "Knewave", cursive;
 	right: 4%;
 	top: 30%;
 	width: 120px;
@@ -125,6 +133,7 @@ body{
 }
 
 .recording{
+    font-family: "Knewave", cursive;
 	right: 4%;
 	top: 44%;
 	width: 210px;
@@ -143,6 +152,7 @@ body{
 }
 
 .construction{
+    font-family: "Knewave", cursive;
 	right: 4%;
 	top: 58%;
 	width: 280px;
@@ -161,9 +171,9 @@ body{
 }
 
 .spare-time{
+    font-family: Knewave, cursive;
 	right: 4.6%;
 	bottom: 18%;
 	font-size: 60px;
 	color: #B7C8E4;
-    font-style: italic;
 }

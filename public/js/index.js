@@ -3,8 +3,8 @@ $(function(){
 		e.preventDefault();
 		$('#z').animate(
 		{
-			width: '1000px',
-			height: '160vh',
+			width: '1090px',
+			height: '800px',
 			opacity: '.01'
 		},
 		'normal', 

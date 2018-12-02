@@ -65,8 +65,8 @@ a:hover{
 .about{
 	position: absolute;
 	z-index: 10;
-	top: 198px;
-	left: 320px;
+	top: 220px;
+	left: 300px;
 	width: 300px;
 	color: #E9CC80;
 	font-size: 40px;

@@ -4,7 +4,7 @@
 }
 
 body{
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Noto Sans SC", sans-serif;
 	background: #8BA1DA;
 }
 
@@ -14,11 +14,17 @@ body{
 	background: #637AB0;
 }
 
+.cat{
+    position: absolute;
+    top: 20px;
+    padding-left: 55%;
+}
+
 .header .title{
 	padding-left: 60px;
 	padding-top: 30px;
-	font-size: 50px;
-    font-family: "georgia", serif;
+	font-size: 60px;
+    font-family: "Noto Serif", serif;
 	color: #E8C87C;
 }
 
