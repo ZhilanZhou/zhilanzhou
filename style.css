@@ -302,6 +302,7 @@ h4.card-title.sub { margin: 2rem 0 0; }
 .ch-head { position: sticky; top: 5rem; align-self: start; }
 .ch-head .num { display: block; font-family: var(--f-mono); font-size: 0.72rem; color: var(--accent); margin-bottom: 0.6rem; }
 .ch-body .interests { margin-top: 1rem; }
+.gallery.one { columns: 1; max-width: 22rem; }
 @media (max-width: 760px) {
   .chapter { grid-template-columns: 1fr; gap: 1rem; }
   .ch-head { position: static; }
