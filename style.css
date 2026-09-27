@@ -277,6 +277,11 @@ footer { position: relative; }
   background: var(--ink-3);
   -webkit-mask: url(img/cat-hang.png) center / contain no-repeat; mask: url(img/cat-hang.png) center / contain no-repeat;
 }
+.footer-cat { transition: background-color .2s; transform-origin: 50% 0; }
+.footer-cat:hover, footer:has(.surprise:hover) .footer-cat { background: var(--accent); animation: swing .6s ease-in-out; }
+@keyframes swing { 25% { transform: rotate(4deg); } 75% { transform: rotate(-4deg); } }
+footer .surprise { text-decoration: none; color: var(--ink-3); align-self: center; }
+footer .surprise:hover { color: var(--accent); }
 h4.card-title.sub { margin: 2rem 0 0; }
 .timeline.compact > li { padding: 0.8rem 0; }
 .timeline.compact h3 { font-size: 1.05rem; }
@@ -291,7 +296,7 @@ h4.card-title.sub { margin: 2rem 0 0; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  * { transition: none !important; }
+  * { transition: none !important; animation: none !important; }
 }
 
 /* ---------- off the clock page ---------- */
