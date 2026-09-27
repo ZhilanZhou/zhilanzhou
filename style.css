@@ -296,4 +296,13 @@ h4.card-title.sub { margin: 2rem 0 0; }
 
 /* ---------- off the clock page ---------- */
 .page { max-width: 78rem; margin: 0 auto; padding: clamp(2.5rem, 7vw, 6rem) clamp(16px, 4vw, 3rem) 4rem; }
-.page .gallery { margin-top: 2.5rem; }
+.page > .links { margin-bottom: 1rem; }
+.chapter { display: grid; grid-template-columns: minmax(0, 16rem) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 4rem); }
+.page > .chapter:first-of-type { border-top: 1px solid var(--rule); margin-top: 3rem; }
+.ch-head { position: sticky; top: 5rem; align-self: start; }
+.ch-head .num { display: block; font-family: var(--f-mono); font-size: 0.72rem; color: var(--accent); margin-bottom: 0.6rem; }
+.ch-body .interests { margin-top: 1rem; }
+@media (max-width: 760px) {
+  .chapter { grid-template-columns: 1fr; gap: 1rem; }
+  .ch-head { position: static; }
+}
